@@ -1,0 +1,25 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -48 -16 -64 -16
+LINE Normal -48 16 -64 16
+LINE Normal -48 -48 -64 -48
+LINE Normal -48 -112 -64 -112
+LINE Normal -64 -80 -48 -80
+RECTANGLE Normal 64 32 -48 -128
+TEXT 25 -41 Left 2 Ras
+TEXT 32 -20 Left 2 Pi
+PIN -64 -48 LEFT 20
+PINATTR PinName RX
+PINATTR SpiceOrder 1
+PIN -64 -16 LEFT 20
+PINATTR PinName TX
+PINATTR SpiceOrder 2
+PIN -64 16 LEFT 20
+PINATTR PinName GND
+PINATTR SpiceOrder 3
+PIN -64 -80 LEFT 20
+PINATTR PinName +3.3V
+PINATTR SpiceOrder 4
+PIN -64 -112 LEFT 20
+PINATTR PinName +5V
+PINATTR SpiceOrder 5
