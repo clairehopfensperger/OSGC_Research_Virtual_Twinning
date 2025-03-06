@@ -6,6 +6,7 @@ import numpy as np
 # STM32 microcontroller then recieves the data read
 # by the onboard ADC and prints the results to the screen.
 # Author: Alecea Grosjean, Ethan Barnes, Jimmy Roach
+# Edited by Claire Hopfensperger
 def print_graph():
     # Lists to store time and voltage data
     time_data = []
